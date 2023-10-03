@@ -1,0 +1,1 @@
+#This directory contains the notebook InterAnnual_HAFShiftComp_Final.ipynb which uses allele frequency data from this study and the Rudman et al. 2022 study to assess concordance in allele frequency change throughout the experiment
