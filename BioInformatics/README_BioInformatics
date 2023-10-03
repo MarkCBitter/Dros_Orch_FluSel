@@ -1,0 +1,9 @@
+This directory, and the subdirectories herein, contain scripts used to process raw reads and generate haplotype-informed allele frequency estimates.
+
+The sub-directory 01_Alignment, contains scripts for alignment of raw reads to the Drosophila melanogasters v5 reference genome.
+
+The sub-directory 02_SequenceQC contains scripts for quality control of aligned reads.
+
+The sub-directory 03_HAFPipe uses the .bam files, in combination with the v5 genome and the inbred founder SNP tables to generate haplotype-informed allele frequency estimates.
+
+
