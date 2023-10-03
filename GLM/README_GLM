@@ -1,0 +1,5 @@
+This directory contains two subdirectories:
+
+(1) NonLOO - this subdiretory contains scripts for using GLM to identify sites shifting systematically across replicates throughout the experiment.
+
+(2) LOO - this subdiretory contains scripts for using GLM to identify sites shifting systematically across replicates throughout the experiment uisng a leave-one-out approach.
