@@ -12,11 +12,11 @@
 
 ##The notebook orch2021_ManhattanPlots_Final.ipynb generates manhattan plots for all interval length/comparison glm's
 
-##The subdirectory GLM_CLustering contains scripts to identify unlinked clusters from the GLM results
-####within that subdirectory, the script for clustering of unlinked loci from glm results is Clustering.R 
+##This directory also contains scripts to identify unlinked clusters from the GLM results
+##the script for clustering of unlinked loci from glm results is Clustering.R 
       ###IMPORTANT - this clustering code is modeled off of code written and provided by S. Greenblum here - https://github.com/greensii/dros-adaptive-tracking
       ##This script specifically generates results for 10 timepoint intervals, which includes the Spring to Fall interval (T1->11)
       ##This code was similarly used to generate results for the T1->7, 3->9, 5->12, and 7->9 intervals for the comparison to Rudman et al. (2022) results
-##This subdirectory also contains code for analyzing patterns of linkage between clusters (orch2021_ClusterSNPLinkage.ipynb)
+##The script orch2021_ClusterSNPLinkage.ipynb contains code for analyzing patterns of linkage between clusters 
 
 
