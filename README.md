@@ -5,8 +5,9 @@ Each subdirectory contains a seaparate README file containing specific informati
 The orch2021_functions.R script in the main directory is source code that contains functions that are called upon in many of the scripts and notebooks used in the various subdirectories.
 
 The allele frequency files used in these analyses are too large to upload to github. 
-You can access the raw reads the NCBI SRA: X
-You can access the allele frequency data here: Y
+You can access the raw reads for the samples collected for this experiment on the NCBI SRA: PRJNA1031645
+You can access the allele frequency data here: https://doi.org/10.5061/dryad.xd2547dpv
+
 
 
 
