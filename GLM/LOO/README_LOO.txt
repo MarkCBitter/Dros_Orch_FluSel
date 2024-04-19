@@ -21,7 +21,8 @@
 
 ##The notebook ExpandingPhases.LOA.ecage.orch2021_BERem_Final.ipynb takes in the output files of write.Shift.Stats and does downstream data wrangling, analysis, and plotting.
 
- 
+##The script LOO_BiolReps_Validation.ipynb validates that those alleles identified and assessed in our LOO are not simply noisy in the measurement and thus driving
+spurious signals of fluctuating selection
 
 
 
