@@ -7,6 +7,6 @@ The sub-directory 02_SequenceQC contains scripts for quality control of aligned 
 The sub-directory 03_HAFPipe uses the .bam files, in combination with the v5 genome and the inbred founder SNP tables to generate haplotype-informed allele frequency estimates.
 
 
-The sub-directory 04_HAFPipe
+The sub-directory 04_HiCovPoolSeq contains scripts for generating raw allele freqeuncy estimates via standard pool seq methodology and comparing those to our haplotype-informed allele frequency estimates
 
 
