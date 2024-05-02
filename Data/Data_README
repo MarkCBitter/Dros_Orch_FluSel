@@ -1,0 +1,13 @@
+The two files in this directory contain a small subset of allele frequency data for:
+  1) the evolved time point samples (orch2021_Downsampled_ECage_Filtered.SUB.RData)
+  2) and the for replicate baseline population samples (orch2021_Baseline_Downsampled_Filtered.SUB.RData)
+
+Each datafile can be loaded into R using the 'load' command and contains the following dataframes:
+1) 'samps' data frame: each row corresponds to a particular sample for which allele frequency data is available. 
+The columns then correspond to sample information, notably replicate cage number and collection time.
+2)'afmat' data frame: each row corresponds to a unique single nucleotide polymorphism (1.9 million in total), and values represent the allele frequency for a particular sample. 
+The columns then correspond to all samples listed in the 'samps' data frame, and are ordered by the corresponding row order of the 'samps' data frame (e.g. allele frequency data for the sample described in the first row of the 'samps' data frame is provided in the first column of the 'afmat' data frame).
+3) 'eec' data frame: each row corresponds to a unique single nucleotide polymorphism (1.9 million in total), and values represent the estimated effective coverage for a particular sample (see https://doi.org/10.1534/g3.119.400755(opens in new window) for the computation of the estimated effective coverage) . 
+The columns then correspond to all samples listed in the 'samps' data frame, and are ordered by the corresponding row order of the 'samps' data frame (e.g. effective coverage data for the sample described in the first row of the 'samps' data frame is provided in the first column of the 'eec' data frame).
+4) 'sites' data frame: SNP coordinate information (chromosomal arm and position; coordinates for D. mel. ref v5.39) for each site in the afmat and eec data frames. 
+This data frame has the same number of rows as the afmat and eec dataframes, whereby the SNP information for each row in the 'sites' data frame corresponds to the allele frequency and effective coverage values in the same row of the afmat and eec data frames.
