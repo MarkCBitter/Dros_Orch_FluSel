@@ -2,4 +2,4 @@
 
 #It contains the notebook InterAnnual_HAFShiftComp_Final.ipynb which uses allele frequency data from each study to assess concordance in allele frequency change throughout the mescosm observation periods.
 
-#It contains the subdirectory 'PhenotypeEnrichmentComparison', which contains data and scripts for identifying and comparing enriched phenotypes identified by each study. Specifically, the notebook ModPHEA2021_Final.ipynb takes in the top genes identified using the unlinked clusters identified in the present study (see ~/GLM/NonLOO/Clustering.R), to get fbGNs to be used in with the modPHEA software, available at https://evol.nhri.org.tw/phenome2/. Furthermore, the script compares the fbGNs identified from this study to those of Rudman et al. 2022 (which are available in the file 2014_GeneIDs.csv).
+
