@@ -17,6 +17,6 @@
       ###IMPORTANT - this clustering code is modeled off of code written and provided by S. Greenblum here - https://github.com/greensii/dros-adaptive-tracking
       ##This script specifically generates results for 10 timepoint intervals, which includes the Spring to Fall interval (T1->11)
       ##This code was similarly used to generate results for the T1->7, 3->9, 5->12, and 7->9 intervals for the comparison to Rudman et al. (2022) results
-##The script orch2021_ClusterSNPLinkage.ipynb contains code for analyzing patterns of linkage between clusters 
+##The notebook ClusterSNPPairLinkage_Final.ipynb contains code for analyzing patterns of snp-pair linkage w/in and between clusters 
 
 
