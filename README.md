@@ -21,9 +21,9 @@ The GLM directory contains all analyses associated with the use of generlized li
        https://github.com/EgorLappo/temporal-covariances/tree/main/for_sharing
 
 The allele frequency files used in these analyses are too large to upload to github. 
-You can access the raw reads for the samples collected for this experiment on the NCBI SRA: PRJNA1031645
-You can access the allele frequency data here: https://doi.org/10.5061/dryad.xd2547dpv
-
+But you can access the raw reads for the samples collected for this experiment on the NCBI SRA: PRJNA1031645
+And can access the allele frequency data here: https://doi.org/10.5061/dryad.xd2547dpv
+You can also run the code on a small subset of the data for the evolved allele frequency samples and baseline samples provided in the Data directory
 
 
 
